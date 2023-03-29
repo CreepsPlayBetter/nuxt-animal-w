@@ -10,10 +10,6 @@ export default defineNuxtConfig({
     serviceKey: process.env.SUPABASE_SERVICE_ROLE_KEY,
   },
 
-  nitro: {
-    preset: 'vercel-edge',
-  },
-
   css: ['~~/assets/main.scss']
 })
 
